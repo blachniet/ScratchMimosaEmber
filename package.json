@@ -1,0 +1,19 @@
+{
+  "name": "ScratchMimosaEmber",
+  "version": "0.0.1",
+  "homepage": "",
+  "author": "",
+  "description": "",
+  "contributors": [
+    {
+      "name": "",
+      "email": ""
+    }
+  ],
+  "private": true,
+  "dependencies": {
+    "express": "3.1.0",
+    "consolidate": "0.8.0",
+    "jade": "0.28.2"
+  }
+}
