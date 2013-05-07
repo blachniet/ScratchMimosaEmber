@@ -1,6 +1,9 @@
-define(['app/app-view'], function(ApplicationView) {
+define(['app/controller/application', 'app/controller/index'], function(ApplicationController, IndexController) {
+    console.log("In app/main");
+    console.log(ApplicationController);
   var App;
   return App = {
-    ApplicationView: ApplicationView
+    ApplicationController: ApplicationController,
+    IndexController: IndexController
   };
 });
