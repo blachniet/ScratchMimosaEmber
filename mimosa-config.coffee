@@ -70,7 +70,7 @@ exports.config = {
     # use:['nib']               # names of libraries to use, should match the npm name for
                                 # the desired libraries
 
-  # template:
+  template:
     # amdWrap: true                   # Whether or not to wrap the compiled template files in
                                       # an AMD wrapper for use with require.js
     # outputFileName: "templates"     # the file all templates are compiled into, is relative
@@ -98,15 +98,15 @@ exports.config = {
                                       # provided for each output entry, and the names
                                       # must be unique.
 
-    # handlebars:                     # handlebars specific configuration
-      # helpers:["app/template/handlebars-helpers"]  # the paths from watch.javascriptDir to
+    handlebars:                     # handlebars specific configuration
+      helpers:["app/template/handlebars-helpers"]  # the paths from watch.javascriptDir to
                                       # the files containing handlebars helper/partial
                                       # registrations
-      # ember:                        # Ember.js has its own Handlebars compilation needs,
+      ember:                        # Ember.js has its own Handlebars compilation needs,
                                       # use this config block to provide Ember specific
                                       # Handlebars configuration.
-        # enabled: false              # Whether or not to use the Ember Handlebars compiler
-        # path: "vendor/ember"        # location of the Ember library, this is used as
+        enabled: true               # Whether or not to use the Ember Handlebars compiler
+        path: "ember"               # location of the Ember library, this is used as
                                       # as a dependency in the compiled templates.
 
   ###
